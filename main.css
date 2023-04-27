@@ -1,0 +1,293 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-print-color-adjust: exact;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+}
+
+@page {
+  margin: 0;
+  -webkit-print-color-adjust: exact;
+}
+
+.info-header {
+  margin-left: 15px;
+  margin-right: 80px;
+  width: 35%;
+}
+
+.info-header .name {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.info-header .occupation {
+  color: #5392cb;
+}
+
+.info-header .introline {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+header.top-header {
+  display: flex;
+  padding-top: 40px;
+  border-bottom: 2px solid #5392cb;
+  padding-bottom: 30px;
+}
+
+.block {
+  background: #5392cb;
+  width: 35px;
+  height: 60px;
+}
+
+.block.dark {
+  background: #0e0e0e;
+}
+
+img.me {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 5px solid #5392cb;
+}
+
+.contact {
+  width: 30%;
+  text-align: right;
+  color: #5392cb;
+  margin-left: 100px;
+  padding-right: 20px;
+}
+.contact .c-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.contact .c-item img {
+  width: 25px;
+  margin-left: 20px;
+}
+
+.contact a {
+  display: block;
+  font-size: 14px;
+  color: #5392cb;
+}
+
+.contact a:last-of-type {
+  margin-bottom: 0;
+}
+
+main.main-section {
+  display: flex;
+  padding: 20px 0;
+}
+
+main.main-section .left {
+  flex-basis: 45%;
+  margin-right: 5%;
+}
+
+main.main-section .right {
+  flex-basis: 50%;
+}
+
+.box {
+}
+
+.box .section-header {
+  font-size: 30px;
+  padding-left: 50px;
+  font-weight: 700;
+}
+
+.box .section-content {
+}
+
+.section-content {
+  display: flex;
+  padding-top: 20px;
+}
+
+.section-content.pad-left {
+  padding-left: 50px;
+}
+
+.section-content .block {
+  flex: 0 0 auto;
+  margin-right: 15px;
+}
+
+.section-content .work {
+}
+
+.section-content .italic-blue {
+  font-style: italic;
+  font-size: 12px;
+  color: #5392cb;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-content .italic-blue > p {
+}
+
+.section-content .designation {
+  font-size: 20px;
+  /* font-weight: 700; */
+}
+
+.section-content .company {
+  font-size: 20px;
+  font-weight: 700;
+}
+.client {
+  margin-bottom: 5px;
+}
+
+.section-content ul.task-list {
+  list-style-image: url("./list-style.png");
+  font-size: 16px;
+  position: relative;
+  margin-top: 10px;
+  left: 15px;
+}
+
+.box.edu {
+  margin-top: 30px !important;
+}
+
+.box.edu .first-line {
+  font-weight: 700;
+  font-weight: 18px;
+}
+
+.box.edu .second-line {
+  font-weight: 16px;
+}
+
+.skills {
+  width: 100%;
+}
+
+.skills .ticks {
+  width: 100%;
+  left: 0;
+  position: absolute;
+  left: -130px;
+  top: -20px;
+}
+
+.skills .ticks .tick {
+  width: 2px;
+  height: 6px;
+  background: #5392cb;
+  margin-left: 130px;
+  position: absolute;
+}
+
+.skills .ticks .tick:nth-of-type(1) {
+  left: 0;
+}
+
+.skills .ticks .tick:nth-of-type(2) {
+  left: 25%;
+}
+
+.skills .ticks .tick:nth-of-type(3) {
+  left: 50%;
+}
+
+.skills .ticks .tick:nth-of-type(4) {
+  left: 75%;
+}
+
+.skills .ticks .tick:nth-of-type(5) {
+  left: 99%;
+}
+
+.skills .skill {
+  display: flex;
+  width: 90%;
+  margin-top: 15px;
+  align-items: center;
+}
+
+.skills .skill > p {
+  flex: 0 0 50%;
+  text-align: right;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.skills .skill .meter {
+  flex: 0 0 50%;
+  width: 100%;
+  height: 10px;
+  position: relative;
+}
+
+.skills .skill .bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  border: 1px solid #5392cb;
+}
+
+.skills .skill .bar-fill {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  height: 10px;
+  background: #5392cb;
+}
+
+.skills .skill .bar-fill.p4 {
+  width: 100%;
+}
+
+.skills .skill .bar-fill.p3 {
+  width: 75%;
+}
+
+.skills .skill .bar-fill.p2 {
+  width: 50%;
+}
+
+.skills .skill .bar-fill.p1 {
+  width: 25%;
+}
+
+.box.margin-top {
+  margin-top: 50px;
+}
+
+.box.margin-right {
+  margin-right: 50px;
+}
+
+.section-header.img {
+  display: flex;
+}
+
+.section-header .img-holder {
+  margin-left: 40px;
+  margin-top: -10px;
+}
+
+.section-header .img-holder > img {
+  margin-left: 10px;
+}
+.white {
+  opacity: 0;
+}
